@@ -39,7 +39,7 @@ const PokemonList = () => {
           <button className='button-33' onClick={() => setSelectedPokemon(null)}>Go Back to List</button>
         </div>
       ) : (
-        <div className="pokemon-container">
+        <div className="pokemon-container pokemmon">
         <h2 className='search'>Pokémon List</h2>
         <ul className="pokemon-list">
           {pokemonList.map((pokemon) => (
