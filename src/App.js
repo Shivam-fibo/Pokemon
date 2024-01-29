@@ -40,7 +40,7 @@ const App = () => {
       <header>
       <h1>Pokémon Homepage</h1>
       </header>
-      <button onClick={handleShowSearch} className="button-36" id='search'>Go to Pokémon Search</button>
+      <button onClick={handleShowSearch} className="button-36" id='search'>Search Pokemon</button>
       <button onClick={handleShowList} className="button-36" id='list'>Go to Pokémon List</button>
 
       {showSearch ? (
